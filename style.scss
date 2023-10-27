@@ -26,20 +26,45 @@ html {
     /* Background color of the navbar */
     color: black;
     /* Text color */
-    padding: 15px 20px;
+    padding: 10 px 20px;
     /* Padding around the navbar items */
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
+    img {
+        margin: 18px;
+    }
+
     ul {
         list-style: none;
         display: flex;
         flex-direction: row;
+        align-items: center;
+        cursor: pointer;
 
         li {
             margin: 8px;
+            font-size: 20px;
+            padding: 10px;
+
+            ion-icon {
+                font-size: 18px;
+                /* Change the icon size */
+                color: black;
+                /* Change the icon color */
+            }
+        }
+
+        button {
+            font-family: 'Work Sans', sans-serif;
+            width: 100%;
+            background-color: #ffcc00;
+            font-size: 20px;
+            padding: 10px;
+            cursor: pointer;
+
         }
     }
 
@@ -88,27 +113,22 @@ html {
         flex-direction: column;
 
         h1 {
-            margin: 20px;
             padding: 35px;
-            font-family: 'Agbalumo', sans-serif;
         }
 
         p {
             font-size: 30px;
-            margin: 20px;
             padding: 35px;
-            font-family: 'Playpen Sans', sans-serif;
-            font-weight: 300;
+            font-weight: 500;
         }
 
         button {
-            font-family: 'Agbalumo', sans-serif;
             width: 30%;
-            margin: 20px;
             background-color: #ffcc00;
             font-size: 35px;
+            margin-left: 38px;
+            cursor: pointer;
         }
-
     }
 }
 

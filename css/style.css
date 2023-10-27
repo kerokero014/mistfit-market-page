@@ -22,7 +22,7 @@ html {
   /* Background color of the navbar */
   color: black;
   /* Text color */
-  padding: 15px 20px;
+  padding: 10 px 20px;
   /* Padding around the navbar items */
   text-align: center;
   display: flex;
@@ -30,13 +30,34 @@ html {
   justify-content: space-between;
   /* Center-align the text */
 }
+.navbar img {
+  margin: 18px;
+}
 .navbar ul {
   list-style: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  cursor: pointer;
 }
 .navbar ul li {
   margin: 8px;
+  font-size: 20px;
+  padding: 10px;
+}
+.navbar ul li ion-icon {
+  font-size: 18px;
+  /* Change the icon size */
+  color: black;
+  /* Change the icon color */
+}
+.navbar ul button {
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+  background-color: #ffcc00;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
 }
 .navbar .navbar a {
   text-decoration: none;
@@ -77,23 +98,19 @@ html {
   flex-direction: column;
 }
 .hero .hero-content h1 {
-  margin: 20px;
   padding: 35px;
-  font-family: "Agbalumo", sans-serif;
 }
 .hero .hero-content p {
   font-size: 30px;
-  margin: 20px;
   padding: 35px;
-  font-family: "Playpen Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 .hero .hero-content button {
-  font-family: "Agbalumo", sans-serif;
   width: 30%;
-  margin: 20px;
   background-color: #ffcc00;
   font-size: 35px;
+  margin-left: 38px;
+  cursor: pointer;
 }
 
 .hero-wave img {
