@@ -8,30 +8,42 @@
       http-equiv="Content-Security-Policy"
       content="upgrade-insecure-requests"
     />
-    <link rel="stylesheet" href="CSS/style.css"/>
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>MisFits Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <header>
-    <img src="imgs/MM_nav-logo-desktop.svg">
+  <header class="navbar">
+    <img src="imgs/MM_nav-logo-desktop.svg" />
     <ul>
-      <li href="#"><ion-icon name="person-outline"></ion-icon>Sing in</li>
-      <li href="#">Get Started</li>
-      <li href="#">About Us</li>
+      <li href="#">
+        <button><ion-icon name="person-outline"></ion-icon>Sing in</button>
+      </li>
+      <li href="#"><button>About Us</button></li>
+      <li href="#"><button>Get Started</button></li>
     </ul>
   </header>
 
   <body>
-    <section>
+    <section class="hero">
       <img src="/imgs/hero-img.jpg" alt="hero image" />
-      <h1>Cut your grocery bill and your food waste</h1>
-      <p>
-        Get exclusive savings on high-quality groceries that we save from going
-        to waste.
-      </p>
-      <button>Get Started</button>
+      <div class="hero-content">
+        <h1>Cut your grocery bill and your food waste</h1>
+        <p>
+          Get exclusive savings on high-quality groceries that we save from
+          going to waste.
+        </p>
+        <button>Get Started</button>
+      </div>
     </section>
-
+    <div class="hero-wave">
+      <img src="imgs/MM_home-LIP-benefits-top-desktop2.svg" />
+    </div>
     <section>
       <img src="/imgs/piggy-bank.png" alt="piggy bank" />
       <p>
