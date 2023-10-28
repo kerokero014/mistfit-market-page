@@ -300,6 +300,36 @@ before {
 }
 .savings .right {
   grid-area: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.savings .right h1 {
+  font-size: 45px;
+  margin: 15px;
+}
+.savings .right h2 {
+  font-size: 25px;
+  margin: 15px;
+}
+.savings .right img {
+  width: 20%;
+}
+.savings .right ion-icon {
+  color: green;
+  font-size: 30px;
+  margin: 9px;
+}
+.savings .right p {
+  font-size: 30px;
+}
+.savings .right .par-one,
+.savings .right .par-two,
+.savings .right .par-three {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

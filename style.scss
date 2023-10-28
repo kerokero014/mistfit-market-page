@@ -349,6 +349,42 @@ before {
 
     .right {
         grid-area: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 45px;
+            margin: 15px;
+        }
+
+        h2{
+            font-size: 25px;
+            margin: 15px;
+        }
+
+        img {
+            width: 20%;
+        }
+
+        ion-icon {
+            color: green;
+            font-size: 30px;
+            margin: 9px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        .par-one,
+        .par-two,
+        .par-three {
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+        }
     }
 
 
