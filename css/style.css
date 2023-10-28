@@ -6,10 +6,6 @@ before {
   padding: 0;
 }
 
-html {
-  background-color: white;
-}
-
 /* 
 &menu-toggle + .main-menu{
     display:block;
@@ -243,7 +239,7 @@ html {
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px 10px;
+  gap: 10px 20px;
   grid-template-areas: "blueberry milk meat pop" "af nec wafel mozz";
 }
 .savings .left .blueberry {
