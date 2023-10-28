@@ -16,7 +16,6 @@ html {
     display:none;
 }
 */
-/* Basic Navbar Styling */
 .navbar {
   background-color: #f2ebd1;
   /* Background color of the navbar */
@@ -192,22 +191,119 @@ html {
   font-size: 20px;
 }
 
+/*.savings {
+    background-color: #FFF9EA;
+
+    .blueberry,
+    .milk,
+    .meat,
+    .pop,
+    .af,
+    .nec,
+    .wafel,
+    .mozz {
+        background-color: white;
+        width: 100px;
+    }
+
+    img {
+        width: 50px;
+    }
+
+}*/
 .savings {
   background-color: #FFF9EA;
-}
-.savings .blueberry,
-.savings .milk,
-.savings .meat,
-.savings .pop,
-.savings .af,
-.savings .nec,
-.savings .wafel,
-.savings .mozz {
-  background-color: white;
-  width: 100px;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "left right";
 }
 .savings img {
-  width: 50px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.savings h3 {
+  font-size: 1.5em;
+  color: #9A4726;
+  margin-bottom: 10px;
+}
+.savings p {
+  font-size: 1em;
+  color: #333;
+}
+.savings .left {
+  margin: 75px;
+  background-color: #FFF9EA;
+  grid-area: left;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas: "blueberry milk meat pop" "af nec wafel mozz";
+}
+.savings .left .blueberry {
+  grid-area: blueberry;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 7px 5px #4d4949;
+}
+.savings .left .milk {
+  grid-area: milk;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 7px 5px #4d4949;
+}
+.savings .left .meat {
+  grid-area: meat;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 7px 5px #4d4949;
+}
+.savings .left .pop {
+  grid-area: pop;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 7px 5px #4d4949;
+}
+.savings .left .af {
+  grid-area: af;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 7px 5px #4d4949;
+}
+.savings .left .nec {
+  grid-area: nec;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 7px 5px #4d4949;
+}
+.savings .left .wafel {
+  grid-area: wafel;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 7px 5px #4d4949;
+}
+.savings .left .mozz {
+  grid-area: mozz;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 7px 5px #4d4949;
+}
+.savings .right {
+  grid-area: right;
 }
 
 /*# sourceMappingURL=style.css.map */

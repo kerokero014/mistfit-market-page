@@ -16,7 +16,7 @@ html {
     display:none;
 }
 */
-/* Basic Navbar Styling */
+
 .navbar {
     background-color: #f2ebd1;
     /* Background color of the navbar */
@@ -221,7 +221,7 @@ html {
     }
 }
 
-.savings {
+/*.savings {
     background-color: #FFF9EA;
 
     .blueberry,
@@ -239,5 +239,122 @@ html {
     img {
         width: 50px;
     }
+
+}*/
+
+.savings {
+    background-color: #FFF9EA;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "left right";
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        color: #9A4726;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1em;
+        color: #333;
+    }
+
+
+    .left {
+        margin: 75px;
+        background-color: #FFF9EA;
+        grid-area: left;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px 10px;
+        grid-template-areas:
+            "blueberry milk meat pop"
+            "af nec wafel mozz";
+
+        .blueberry {
+            grid-area: blueberry;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 7px 5px #4d4949;
+        }
+
+        .milk {
+            grid-area: milk;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 7px 5px #4d4949;
+        }
+
+        .meat {
+            grid-area: meat;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 7px 5px #4d4949;
+        }
+
+        .pop {
+            grid-area: pop;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 7px 5px #4d4949;
+        }
+
+        .af {
+            grid-area: af;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 7px 5px #4d4949;
+        }
+
+        .nec {
+            grid-area: nec;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 7px 5px #4d4949;
+
+        }
+
+        .wafel {
+            grid-area: wafel;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 7px 5px #4d4949;
+
+        }
+
+        .mozz {
+            grid-area: mozz;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 7px 5px #4d4949;
+        }
+    }
+
+    .right {
+        grid-area: right;
+    }
+
+
 
 }
