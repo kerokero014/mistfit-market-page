@@ -221,6 +221,23 @@ html {
     }
 }
 
-.savings{
+.savings {
     background-color: #FFF9EA;
+
+    .blueberry,
+    .milk,
+    .meat,
+    .pop,
+    .af,
+    .nec,
+    .wafel,
+    .mozz {
+        background-color: white;
+        width: 100px;
+    }
+
+    img {
+        width: 50px;
+    }
+
 }
