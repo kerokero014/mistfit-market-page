@@ -1,227 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>MisFits Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-  <link rel="stylesheet" href="CSS/style.css" />
-  <title>MisFits Market</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet" />
-</head>
+  <header class="navbar">
+    <img src="imgs/MM_nav-logo-desktop.svg" />
+    <ul>
+      <li href="#">
+        <strong>About Us<ion-icon name="caret-down-outline"></ion-icon></strong>
+      </li>
+      <li href="#">
+        <strong><ion-icon name="person-outline"></ion-icon> Sing in</strong>
+      </li>
+      <li href="#"><button>Get Started</button></li>
+    </ul>
+  </header>
 
-<header class="navbar">
-  <img src="imgs/MM_nav-logo-desktop.svg" />
-  <ul>
-    <li href="#">
-      <strong>About Us<ion-icon name="caret-down-outline"></ion-icon></strong>
-    </li>
-    <li href="#">
-      <strong><ion-icon name="person-outline"></ion-icon> Sing in</strong>
-    </li>
-    <li href="#"><button>Get Started</button></li>
-  </ul>
-</header>
-
-<body>
-  <section class="hero">
-    <img src="/imgs/hero-img.jpg" alt="hero image" />
-    <div class="hero-content">
-      <h1>Cut your grocery bill and your food waste</h1>
-      <p>
-        Get exclusive savings on high-quality groceries that we save from
-        going to waste.
-      </p>
-      <button>Get Started</button>
-    </div>
-  </section>
-  <div class="hero-wave">
-    <img src="imgs/MM_home-LIP-benefits-top-desktop2.svg" />
-  </div>
-  <!--Second Section-->
-  <section class="offers">
-    <div class="one">
-      <img src="imgs/MM_home-LIP-savings.svg" alt="image for seconde section" />
-      <h3>
-        <stron>Join for FREE</stron>
-      </h3>
-      <p>
-        It pays to shop with us. You can save up to $1200* every year on
-        high-quality grocery items.
-      </p>
-    </div>
-
-    <div class="line two"></div>
-
-    <div class="three">
-      <img src="imgs/MM_home-LIP-hassle.svg" alt="image for seconde section" />
-      <h3><strong>Skip the Store</strong></h3>
-      <p>
-        Customize your weekly order from among 500+ produce, meat, seafood,
-        dairy, and bakery items. Unlock free shipping** for select users.
-      </p>
-    </div>
-
-    <div class="line four"></div>
-
-    <div class="five">
-      <img src="imgs/MM_home-LIP-dogood.svg" alt="image for seconde section" />
-      <h3><strong>Do Some Good</strong></h3>
-      <p>
-        Joining for FREE helps fix a broken food system and build a more
-        sustainable future.
-      </p>
-    </div>
-
-    <div class="extra">
-      <p>
-        *Based on a weekly average savings of $23.04 per order<br />compared
-        to retail grocery store. Actual savings may vary.<br />
-        **Customers in select delivery zip codes may be eligible for<br />
-        free shipping based on their free shipping threshold.
-      </p>
-    </div>
-  </section>
-
-  <!--Third Section-->
-  <section class="savings">
-
-    <div class="left">
-      <div class="blueberry">
-        <img src="imgs/MM_hp-tile-blueberries.jpg" atl="savings image blueberry" />
-        <h3>33% OFF</h3>
-        <h3>$3.99</h3>
-        <p>Organic<br>blueberries</p>
-      </div>
-
-      <div class="milk">
-        <img src="imgs/MM_hp-tile-oat-milk.jpg" atl="savings image Milk" />
-        <h3>25% OFF</h3>
-        <h3>$2.99</h3>
-        <p>Organic Oat Milk,<br>32oz</p>
-      </div>
-
-      <div class="meat">
-        <img src="imgs/MM_hp-tile-chicken.jpg" atl="savings image meat" />
-        <h3>40% OFF</h3>
-        <h3>$5.99</h3>
-        <p>Pasture-Raised,<br>Heriloom...</p>
-      </div>
-
-      <div class="pop">
-        <img src="imgs/MM_hp-tile-popcorn.jpg" atl="savings image popcorn" />
-        <h3>25% OFF</h3>
-        <h3>$2.99</h3>
-        <p>Organic Popcorn,<br>Himalayan Pink...</p>
-      </div>
-
-      <div class="af">
-        <img src="imgs/MM_hp-tile-honey-ham.jpg" atl="savings image AF wildflower" />
-        <h3>28% OFF</h3>
-        <h3>$5.79</h3>
-        <p>Antibiotic-Free</br>wildflower Hone...</p>
-      </div>
-
-      <div class="nec">
-        <img src="imgs/MM_hp-tile-nectarine.jpg" atl="savings image Nectaries" />
-        <h3>17% OFF</h3>
-        <h3>$4.99</h3>
-        <p>Organic<br>Necaties, 2lb..</p>
-      </div>
-
-      <div class="wafel">
-        <img src="imgs/MM_hp-tile-stroopwafel.jpg" atl="savings image Stoppwafel" />
-        <h3>30% OFF</h3>
-        <h3>$6.99</h3>
-        <p>X MisFits Upcycled<br>Stroopwafel, 11.2...</p>
-      </div>
-
-      <div class="mozz">
-        <img src="imgs/MM_hp-tile-mozzarella.jpg" atl="savings image Mozzarella" />
-        <h3>31% OFF</h3>
-        <h3>$5.49</h3>
-        <p>Fresh Mozzarella</p>
-      </div>
-    </div>
-    <div class="right">
-      <img src="imgs/MM_home-LIP-arrow-desktop.svg" atl="arrow for right section">
-      <h1>Cut your weekly<br>grocery bill</h1>
-      <h2>Join for free and start saving</h2>
-      
-      <div class="par-one">
-        <ion-icon name="checkmark-outline"></ion-icon>
-        <p>Unlock <strong>savings of up to 40%</strong>(sometimes<br>more!) compared to grocery stores prices.</p>
-      </div>
-
-      <div class="par-two">
-        <ion-icon name="checkmark-outline"></ion-icon>
+  <body>
+    <section class="hero">
+      <img src="/imgs/hero-img.jpg" alt="hero image" />
+      <div class="hero-content">
+        <h1>Cut your grocery bill and your food waste</h1>
         <p>
-          Shop from <strong>organic produce</strong> and high<br>quality <strong>meat, seafood, dairy
-          products,<br>bakery</strong> items, and other groceries that<br>you'd typically pary a premium
-          for<br>elsewhere.
+          Get exclusive savings on high-quality groceries that we save from
+          going to waste.
+        </p>
+        <button>Get Started</button>
+      </div>
+    </section>
+    <div class="hero-wave">
+      <img src="imgs/MM_home-LIP-benefits-top-desktop2.svg" />
+    </div>
+    <!--Second Section-->
+    <section class="offers">
+      <div class="one">
+        <img
+          src="imgs/MM_home-LIP-savings.svg"
+          alt="image for seconde section"
+        />
+        <h3>
+          <stron>Join for FREE</stron>
+        </h3>
+        <p>
+          It pays to shop with us. You can save up to $1200* every year on
+          high-quality grocery items.
         </p>
       </div>
 
-      <div class="par-three">
-        <ion-icon name="checkmark-outline"></ion-icon>
-        <p>Convenient weekly delivery that you can<br>skip or pause anytime.</p>
+      <div class="line two"></div>
+
+      <div class="three">
+        <img
+          src="imgs/MM_home-LIP-hassle.svg"
+          alt="image for seconde section"
+        />
+        <h3><strong>Skip the Store</strong></h3>
+        <p>
+          Customize your weekly order from among 500+ produce, meat, seafood,
+          dairy, and bakery items. Unlock free shipping** for select users.
+        </p>
+      </div>
+
+      <div class="line four"></div>
+
+      <div class="five">
+        <img
+          src="imgs/MM_home-LIP-dogood.svg"
+          alt="image for seconde section"
+        />
+        <h3><strong>Do Some Good</strong></h3>
+        <p>
+          Joining for FREE helps fix a broken food system and build a more
+          sustainable future.
+        </p>
+      </div>
+
+      <div class="extra">
+        <p>
+          *Based on a weekly average savings of $23.04 per order<br />compared
+          to retail grocery store. Actual savings may vary.<br />
+          **Customers in select delivery zip codes may be eligible for<br />
+          free shipping based on their free shipping threshold.
+        </p>
+      </div>
+    </section>
+
+    <!--Third Section-->
+    <section class="savings">
+      <div class="left">
+        <div class="blueberry">
+          <img
+            src="imgs/MM_hp-tile-blueberries.jpg"
+            atl="savings image blueberry"
+          />
+          <h3>33% OFF</h3>
+          <h3 id="black-lettrs">$3.99</h3>
+          <p>Organic<br />blueberries</p>
+        </div>
+
+        <div class="milk">
+          <img src="imgs/MM_hp-tile-oat-milk.jpg" atl="savings image Milk" />
+          <h3>25% OFF</h3>
+          <h3 id="black-lettrs">$2.99</h3>
+          <p>Organic Oat Milk,<br />32oz</p>
+        </div>
+
+        <div class="meat">
+          <img src="imgs/MM_hp-tile-chicken.jpg" atl="savings image meat" />
+          <h3>40% OFF</h3>
+          <h3 id="black-lettrs">$5.99</h3>
+          <p>Pasture-Raised,<br />Heriloom...</p>
+        </div>
+
+        <div class="pop">
+          <img src="imgs/MM_hp-tile-popcorn.jpg" atl="savings image popcorn" />
+          <h3>25% OFF</h3>
+          <h3 id="black-lettrs">$2.99</h3>
+          <p>Organic Popcorn,<br />Himalayan Pink...</p>
+        </div>
+
+        <div class="af">
+          <img
+            src="imgs/MM_hp-tile-honey-ham.jpg"
+            atl="savings image AF wildflower"
+          />
+          <h3>28% OFF</h3>
+          <h3 id="black-lettrs">$5.79</h3>
+          <p>Antibiotic-Free<br />wildflower Hone...</p>
+        </div>
+
+        <div class="nec">
+          <img
+            src="imgs/MM_hp-tile-nectarine.jpg"
+            atl="savings image Nectaries"
+          />
+          <h3>17% OFF</h3>
+          <h3 id="black-lettrs">$4.99</h3>
+          <p>Organic<br />Necaties, 2lb..</p>
+        </div>
+
+        <div class="wafel">
+          <img
+            src="imgs/MM_hp-tile-stroopwafel.jpg"
+            atl="savings image Stoppwafel"
+          />
+          <h3>30% OFF</h3>
+          <h3 id="black-lettrs">$6.99</h3>
+          <p>X MisFits Upcycled<br />Stroopwafel, 11.2...</p>
+        </div>
+
+        <div class="mozz">
+          <img
+            src="imgs/MM_hp-tile-mozzarella.jpg"
+            atl="savings image Mozzarella"
+          />
+          <h3>31% OFF</h3>
+          <h3 id="black-lettrs">$5.49</h3>
+          <p>Fresh Mozzarella</p>
+        </div>
+      </div>
+      <div class="right">
+        <img
+          src="imgs/MM_home-LIP-arrow-desktop.svg"
+          atl="arrow for right section"
+        />
+        <h1>Cut your weekly<br />grocery bill</h1>
+        <h2>Join for free and start saving</h2>
+
+        <div class="par-one">
+          <ion-icon name="checkmark-outline"></ion-icon>
+          <p>
+            Unlock <strong>savings of up to 40%</strong>(sometimes<br />more!)
+            compared to grocery stores prices.
+          </p>
+        </div>
+
+        <div class="par-two">
+          <ion-icon name="checkmark-outline"></ion-icon>
+          <p>
+            Shop from <strong>organic produce</strong> and high<br />quality
+            <strong>meat, seafood, dairy products,<br />bakery</strong> items,
+            and other groceries that<br />you'd typically pary a premium for<br />elsewhere.
+          </p>
+        </div>
+
+        <div class="par-three">
+          <ion-icon name="checkmark-outline"></ion-icon>
+          <p>
+            Convenient weekly delivery that you can<br />skip or pause anytime.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--fourth Section-->
+    <section class="scrolls">
+      <div id="scroll-container">
+        <div id="scroll-text">
+          <ul id="list">
+            <li>bakery</li>
+            <li><strong>.</strong></li>
+            <li>Coffee & Tea</li>
+            <li><strong>.</strong></li>
+            <li>Snacks & Sweets</li>
+            <li><strong>.</strong></li>
+            <li>Dairy & Eggs</li>
+            <li><strong>.</strong></li>
+            <li>Deli</li>
+            <li><strong>.</strong></li>
+            <li>Pantry</li>
+            <li><strong>.</strong></li>
+            <li>Wine</li>
+            <li><strong>.</strong></li>
+            <li>Meat & Seafood</li>
+            <li><strong>.</strong></li>
+            <li>Fruits & Veggies</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!--Footer-->
+  <footer>
+    <h1>MisFits Market</h1>
+    <div class="footer-form">
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="zip">Zip Code:</label>
+        <input
+          type="text"
+          id="zip"
+          name="zip"
+          pattern="\d{5}"
+          title="Five digit zip code"
+          required
+        /><br /><br />
+        <input class="yellow-button" type="submit" value="Sing Up" />
+      </form>
+      <p>
+        By providing your email address, you agree to our Terms of Service and
+        Privacy Policy.
+      </p>
+      <div class="socials">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-tiktok"></ion-icon>
+        <ion-icon name="logo-youtube"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-pinterest"></ion-icon>
       </div>
     </div>
-  </section>
-
-  <!--fourth Section-->
-  <section></section>
-
-  <!--fifth Section-->
-  <section></section>
-</body>
-<!--Footer-->
-<footer>
-  <h1>MisFits Market</h1>
-  <div class="footer-form">
-    <form>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required /><br /><br />
-
-      <label for="zip">Zip Code:</label>
-      <input type="text" id="zip" name="zip" pattern="\d{5}" title="Five digit zip code" required /><br /><br />
-      <input class="yellow-button" type="submit" value="Sing Up" />
-    </form>
-    <p>
-      By providing your email address, you agree to our Terms of Service and
-      Privacy Policy.
-    </p>
-    <div class="socials">
-      <ion-icon name="logo-facebook"></ion-icon>
-      <ion-icon name="logo-tiktok"></ion-icon>
-      <ion-icon name="logo-youtube"></ion-icon>
-      <ion-icon name="logo-instagram"></ion-icon>
-      <ion-icon name="logo-twitter"></ion-icon>
-      <ion-icon name="logo-pinterest"></ion-icon>
+    <div class="footer-links">
+      <ul>
+        <li href="#">Sing Up</li>
+        <li href="#">How it works</li>
+        <li href="#">Our Produce</li>
+        <li href="#">Our Sourcing</li>
+        <li href="#">About Us</li>
+        <li href="#">Refer Friends</li>
+        <li href="#">Blog</li>
+        <li href="#">Careers</li>
+        <li href="#">Reviews & Press</li>
+        <li href="#">Accessibily</li>
+        <li href="#">FAQs</li>
+        <li href="#">Help Center</li>
+        <li href="#">Contact Us</li>
+      </ul>
     </div>
-  </div>
-  <div class="footer-links">
-    <ul>
-      <li href="#">Sing Up</li>
-      <li href="#">How it works</li>
-      <li href="#">Our Produce</li>
-      <li href="#">Our Sourcing</li>
-      <li href="#">About Us</li>
-      <li href="#">Refer Friends</li>
-      <li href="#">Blog</li>
-      <li href="#">Careers</li>
-      <li href="#">Reviews & Press</li>
-      <li href="#">Accessibily</li>
-      <li href="#">FAQs</li>
-      <li href="#">Help Center</li>
-      <li href="#">Contact Us</li>
-    </ul>
-  </div>
-</footer>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+  </footer>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
 </html>

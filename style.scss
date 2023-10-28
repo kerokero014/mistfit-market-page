@@ -18,7 +18,7 @@ before {
     /* Background color of the navbar */
     color: black;
     /* Text color */
-    padding: 10 px 20px;
+    padding: 10px 20px;
     /* Padding around the navbar items */
     text-align: center;
     display: flex;
@@ -264,8 +264,12 @@ before {
     p {
         font-size: 1em;
         color: #333;
+        margin: 5px;
     }
 
+    #black-lettrs {
+        color: black;
+    }
 
     .left {
         margin: 75px;
@@ -359,7 +363,7 @@ before {
             margin: 15px;
         }
 
-        h2{
+        h2 {
             font-size: 25px;
             margin: 15px;
         }
@@ -386,7 +390,56 @@ before {
             margin: 10px;
         }
     }
+}
 
+.scrolls {
+    #scroll-container {
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: #DEA455;
+    }
 
+    #list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 30px;
+        margin: 25px;
+        color:#2D2D2D;
+        font-family: 'Passion One', sans-serif;
+    }
 
+    #scroll-text {
+        /* animation properties */
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+
+        -moz-animation: my-animation 15s linear infinite;
+        -webkit-animation: my-animation 15s linear infinite;
+        animation: my-animation 40s linear infinite;
+    }
+    @-webkit-keyframes my-animation {
+        from {
+            -webkit-transform: translateX(100%);
+        }
+
+        to {
+            -webkit-transform: translateX(-100%);
+        }
+    }
+    @keyframes my-animation {
+        from {
+            -moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+        }
+
+        to {
+            -moz-transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+    }
 }
