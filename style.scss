@@ -24,6 +24,7 @@ before {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: sticky;
 
     img {
         margin: 18px;
